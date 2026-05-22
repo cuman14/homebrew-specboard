@@ -3,13 +3,13 @@
 cask "specboard" do
   desc "Visual GUI for OpenSpec — Spec-Driven Development (SDD) for AI coding assistants"
   homepage "https://github.com/cuman14/specboard"
-  version "0.4.12"
+  version "0.5.3"
 
   # Apple Silicon (arm64) — M1/M2/M3/M4
   # Intel: no disponible por limitaciones del runner de CI.
   on_arm do
     url "https://github.com/cuman14/specboard/releases/download/v#{version}/Specboard_#{version}_aarch64.dmg"
-    sha256 "4d60714b097c16f2768ab877c88823a1ecde371ed1f68bf3d23c1463caec5424"
+    sha256 "6b7910c143fb4f49f39dc88b14d37fbdb5414cb2aeab20b3041d9ea6f1470d39"
   end
 
   app "Specboard.app"
